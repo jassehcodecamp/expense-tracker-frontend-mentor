@@ -1,0 +1,54 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+html {
+  background-color: white;
+}
+
+body {
+   background-color: hsl(27, 66%, 92%);
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border: 1px solid;
+}
+
+.chart-container {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+
+.balance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background-color:  hsl(10, 79%, 65%);
+  color: white;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.balance-summary {
+  display: flex;
+  flex-direction: column;
+}
+
+.balance-amount {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.logo {
+  width: 40px;
+}
